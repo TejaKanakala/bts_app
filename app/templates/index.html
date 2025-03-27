@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BTS Members + Group</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+        
+    <header>
+        <div class="header-content">
+            <img src="{{ url_for('static', filename='images/bts_logo.jpg') }}" alt="BTS Logo" class="bts-logo">
+            <h1>" BTS "</h1>
+        </div>
+    </header>
+
+    
+
+    <div class="slider-container">
+        <div class="slider">
+
+            <!-- Slide 1: Group -->
+            <div class="slide active">
+                <img src="{{ url_for('static', filename='images/group.jpg') }}" alt="BTS Group">
+                <p>BTS: A globally renowned K-pop group breaking records and inspiring millions worldwide.</p>
+            </div>
+
+            <!-- Slide 2: RM -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/rm.jpg') }}" alt="RM">
+                <p>RM: Leader and rapper known for his intellect, deep lyrics, and leadership.</p>
+            </div>
+
+            <!-- Slide 3: Jin -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/jin.jpg') }}" alt="Jin">
+                <p>Jin: BTS’s oldest member, vocalist, and the "Worldwide Handsome" with a golden heart.</p>
+            </div>
+
+            <!-- Slide 4: Suga -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/suga.jpg') }}" alt="Suga">
+                <p>Suga: Talented rapper and producer, also known as Agust D for his solo work.</p>
+            </div>
+
+            <!-- Slide 5: J-Hope -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/jhope.jpg') }}" alt="J-Hope">
+                <p>J-Hope: The group's main dancer, rapper, and an energetic mood-maker.</p>
+            </div>
+
+            <!-- Slide 6: Jimin -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/jimin.jpg') }}" alt="Jimin">
+                <p>Jimin: Known for his grace and charm, a main dancer and vocalist of BTS.</p>
+            </div>
+
+            <!-- Slide 7: V -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/v.jpg') }}" alt="V">
+                <p>V: Vocalist with a deep baritone and actor known for his soulful voice and visuals.</p>
+            </div>
+
+            <!-- Slide 8: Jungkook -->
+            <div class="slide">
+                <img src="{{ url_for('static', filename='images/jungkook.jpg') }}" alt="Jungkook">
+                <p>Jungkook: The "Golden Maknae", excelling in vocals, dance, rap, and visuals.</p>
+            </div>
+
+        </div>
+
+        <!-- Buttons -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 BTS Fan Project by TEJA </p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/slider.js') }}"></script>
+</body>
+</html>
+
+
